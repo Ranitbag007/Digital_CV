@@ -15,13 +15,15 @@ lottie_coding1=load_url('https://assets10.lottiefiles.com/packages/lf20_7X0d6AzO
 lottie_coding2=load_url('https://assets2.lottiefiles.com/packages/lf20_vq5wzcvx.json')
 img_cat=Image.open('Images/dog_cat.png')
 img_Handwriten=Image.open('Images/Handwritten digit recognition.jfif')
+img_bitcoin=Image.open('Images/Bitcoin.webp')
+img_selenium=Image.open('Images/Selenium.jpg')
 
 with st.container():
     st.subheader("Hi! I am  Ranit  :wave:")
     st.title('Beginner Machine Learning coder from India')
-    st.write(' Machine Learning and Technology enthusiast')
+    st.write(' Technology enthusiast')
     st.subheader('CV')
-    st.write('[To downlad cv in pdf format...](https://drive.google.com/file/d/16zz37KZ1J-SsxRmFpWREv9d6VJNQ22z9/view?usp=share_link)')
+    st.write('[To downlad cv in pdf format...](https://drive.google.com/file/d/1hYM_MLQ68NHwc2VjYvEWXsk_TBOpACpe/view?usp=share_link)')
     st.subheader('LinkedIn')
     st.write('[LinkdIn](https://www.linkedin.com/in/ranit-bag-a5a70b219)')
 
@@ -63,10 +65,12 @@ with st.container():
     left_column,right_column=st.columns(2)
     with left_column:
         st.header('Skills')
+        st.write('[Data Science](https://drive.google.com/file/d/1fwSe7qd6KjvD00N9k3V75rIQJefDDJEX/view?usp=share_link)')
         st.write('[AI & ML](https://drive.google.com/file/d/1wEsDJIuxaQZJm5dvYhhmggvf6e5kimVt/view?usp=share_link)')
         st.write('[Python](https://drive.google.com/file/d/1xeEv23ffO8YMuEzr9QZBjT3Oxdt3wlvw/view?usp=share_link)')
         st.write('[C++](https://drive.google.com/file/d/1xjgu40l6CBcZcpKkP9zXVesN1B4hYpnO/view?usp=share_link)')
         st.write('[C](https://drive.google.com/file/d/1xhIrBqYhXYM0U29i4d8yj82YSLWJk-d0/view?usp=share_link)')
+        st.write('[Power BI](https://drive.google.com/file/d/1lXacWfwbxiaRI6DXKzWoEI7akYFYfj6Q/view?usp=share_link)')
     
     with right_column:
         st_lottie(lottie_coding1,height=300)
@@ -92,3 +96,23 @@ with st.container():
     with text_column:
         st.subheader("Handwritten digit recognition using AI & ML")
         st.write('[Click here ...](https://drive.google.com/drive/folders/1_Or_Kb-O1W39F90_2tM1cYSiXokQX_9Z?usp=share_link)')
+
+
+with st.container():
+    image_column, text_column=st.columns((1,2))
+    with image_column:
+        st.image(img_bitcoin)
+
+    with text_column:
+        st.subheader("Bitcoin price tracker using API")
+        st.write('[Click here ...](https://drive.google.com/file/d/1aHhw4o0aEKgppDxm0p829NJlpOBUtLZD/view?usp=share_link)')
+
+
+with st.container():
+    image_column,text_column=st.columns((1,2))
+    with image_column:
+        st.image(img_selenium)
+    
+    with text_column:
+        st.subheader("Flipkart product listing with price using Selenium")
+        st.write("[Click here ...](https://drive.google.com/file/d/1NrYPrciSJOwal5gY4WAGpLuWrkqw-33j/view?usp=share_link)")
