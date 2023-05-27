@@ -25,7 +25,7 @@ with st.container():
     st.subheader('CV')
     st.write('[To downlad cv in pdf format...](https://drive.google.com/file/d/1hYM_MLQ68NHwc2VjYvEWXsk_TBOpACpe/view?usp=share_link)')
     st.subheader('LinkedIn')
-    st.write('[LinkdIn](https://www.linkedin.com/in/ranit-bag-a5a70b219)')
+    st.write('[LinkedIn](https://www.linkedin.com/in/ranit-bag-a5a70b219)')
 
 with st.container():
     st.write('---')
